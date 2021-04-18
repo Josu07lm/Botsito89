@@ -69,7 +69,7 @@ module.exports = kconfig = async (kill, message) => {
         const isGroupAdmins = isGroupMsg ? groupAdmins.includes(sender.id) : false
         const isBotGroupAdmins = isGroupMsg ? groupAdmins.includes(botNumber + '@c.us') : true
 	const chats = (type === 'chat') ? body : (type === 'image' || type === 'video') ? caption : ''
-        const ownerNumber = '503734****@c.us' // MUDE ISSO PARA O SEU NUMERO
+        const ownerNumber = '1679****@c.us' // MUDE ISSO PARA O SEU NUMERO
         const isOwner = sender.id === ownerNumber
         global.pollfile = 'poll_Config_'+chat.id+'.json'
         global.voterslistfile = 'poll_voters_Config_'+chat.id+'.json'
@@ -534,7 +534,7 @@ if (isMedia) {
 			
 		case 'legiao':
 			if (isGroupMsg) return kill.reply(from, 'Puede ser que este grupo no permita enlaces, así que use ese comando en el PV, ¿de acuerdo?', id)
-			kill.sendLinkWithAutoPreview(from, 'https://wa.me/+50373488366', 'Genial que te hayas interesado en contactar a satan!\nAqui esta su whats!', id)
+			kill.sendLinkWithAutoPreview(from, 'https://wa.me/+17694447624', 'Genial que te hayas interesado en contactar a Tsuyu Asui!\nAqui esta su whats!', id)
 			break
 			
 			
@@ -1135,7 +1135,7 @@ if (isMedia) {
 
 
         case 'criador':
-            kill.sendContact(from, '50372488366')
+            kill.sendContact(from, '17694447624')
 			kill.reply(from, 'Si no responde, es por que no le importas:v _OK NO_, puede estar ocupado, tu tranqui..', id)
             break
 
@@ -1143,7 +1143,7 @@ if (isMedia) {
         case 'donate':
 		case 'doar':
             kill.sendText(from, donate, id)
-            kill.sendContact(from, 'wa.me/+50372488366')
+            kill.sendContact(from, 'wa.me/+17694447524')
             break
 			
 	case 'valor':
